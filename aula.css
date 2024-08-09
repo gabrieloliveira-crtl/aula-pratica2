@@ -1,7 +1,6 @@
 header{
     background-color: #2d5e4c;
-    background-size: 1400px 700px;
-    padding: 2px;
+    padding: 15px;
 }
 
 
@@ -10,30 +9,31 @@ header > h1 {
 }
 
 header > img{
-    width: 11%;
+    width: 100px;
    margin-top: -6%;
+   height: auto;
 
 }
 .divv{
     background-color: #4f784e;
-    color: black;
-    padding: 1px;
+    padding: 10px;
     
 }
 body{
-    background-image: url(img/koala-630117_1280.jpg) ; 
+    background-color: #4f784e;
     background-repeat: no-repeat;
     background-size: 1400px 1100px;
     background-position: center;
-    color: aliceblue;
+  
 }
 .koala{
     background-image: url(img/koala-446876_640.jpg);
-    background-size: 1700px 900px;
     background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
-    background-position: 1px;
-    padding: 3px;
+    padding: 250px;
+    background-size: cover;
+    text-align: center;
+    color: greenyellow;
+    background-position:center;
 }
 header div ul{
     list-style: none;
@@ -43,3 +43,9 @@ footer ul{
     display: flex;
     padding: 20px;
 }
+.botao {
+    background-image: url(img/koala-7830706_1280.jpg);
+    padding: 250px;
+    text-align: center;
+}
+
