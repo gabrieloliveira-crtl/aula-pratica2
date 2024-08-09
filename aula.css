@@ -38,3 +38,8 @@ body{
 header div ul{
     list-style: none;
 }
+footer ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
