@@ -1,37 +1,74 @@
+/* (*) usado para mudar a configuraçao geral do site */
+*{
+    margin: 0;/* zarando a marigin do site */
+    padding: 0;/* zerando o preenchimento*/
+    list-style: none;/* removendo os estilos de listas */
+}
+
+
+/* chamamos nosso cabeçalho para estilizaçao */
 header{
-    background-color: #2d5e4c;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
+    background-color: #2d5e4c;/* habilitando uma cor de fundo */
+    padding: 15px;/* colocando um tamanho no header  */
+    display: flex;/* tornando nosso header flex - deixando os itens lado a lado */
+    justify-content: space-around;/* justificativa do conteudo - aqui podemos ajustar conforme nossa necessidade */
+    align-items: center;/* Alinhamento vertical deixando habilitada ao centro*/
 }
+/* aqui chamamos nossa lista nao ordenada para estilizaçao */
+header nav ul{
+    display: flex;/* tornamos nossa lista nao ordenada em flex, deixando os itens pertencentes a ela, lado a lado */
+}
+/* chamamos nossa lista para estilizaçao  */
+header nav ul li{
+    list-style: none;/* estilo de lita desabilitado */
+    margin-right: 20px;/* espaçamento entre as (li) */
+}
+/* chamamos nossa ancora para estilizaçao */
+header nav ul li a {
+    text-decoration: none;/* decoraçao da ancora (subinhado) desabilitado */
+    color: aliceblue;/* cor definida */
+}
+/* chamamos nosso icone para estilização */
+header img{
+    width: 100px;/* largura da imagen */
+    height: auto;/* altura da imagen */
+}
+/* chamamos nosso botao para estilizaçao */
+section button{
+    width: 150px;/* largura do botao */
+    height: 40px;/* altura do botao */
+    background-color: rgba(255, 255, 255, 0.579);/* cor do botao */
+    border-radius: 10px;/* feito o arredondamento do botao tirando o formato quadrado dele */
+}
+/* chamamos o corpo do site para estilizaçao */
 body{
-    background-color: #4f784e;
+    background-color: #4f784e;/* definimos a cor de fundo do site */
 }
+/* chamamos nossa classe para estilizaçao */
 .koala{
-    background-image: url(img/koala-446876_640.jpg);
-    background-repeat: no-repeat;
-    padding: 250px;
-    background-size: cover;
-    text-align: center;
-    color: greenyellow;
-    background-position: center;
+    background-image: url(img/koala-446876_640.jpg);/* definimos a imagem de fundo do nosso site */
+    background-repeat: no-repeat;/* definimos que a imagem nao ira se repitir */
+    padding: 250px;/* demos um tamanho para a imagem */
+    background-size: cover;/* utilizada para que a imagem preencha todo o site */
+    text-align: center;/* utilizada para centralizar o texto */
+    color: greenyellow;/* defida uma cor da letra */
+    background-position: center;/* utilizada para centralizar a imagem */
+    background-attachment: fixed;/* feito para deixar a imagem estatica */
 }
-
+/* chamamos a class do botao para estilizaçao */
 .botao {
-    background-image: url(img/koala-7830706_1280.jpg);
-    padding: 250px;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
+    background-image: url(img/koala-7830706_1280.jpg);/* definimos uma imagem para o fundo */
+    padding: 250px;/* demos um tamanho para a imagem */
+    display: flex;/* tornamaos esta sessao flex para os itens ficarem um do lado do outro */
+    background-repeat: no-repeat;/* feito para a imagem nao repetir */
+    background-size: cover;/* utilizada para a imagem preencher todo o espaço do site */
+    background-position: center;/* feito para posicionar a imagem no centro */
+    justify-content: center;/* utilizada para centralizar os itens(botao) na horizontal */
+    align-items: center;/* centralizado os itens na vertical */
+    background-attachment: fixed;/* feito para deixar a imagem estatica */
 
 }
-footer{
-    padding: 10px;
-    background-color: #6ab168;
-}
+
 .sect{
     padding: 250px;
     display: flex;
@@ -54,13 +91,21 @@ footer{
     font-size: 16px;
     font-weight: 900;
 }
-header img{
-    width: 100px;
-    height: auto;
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-section button{
-    width: 150px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.579);
-    border-radius: 10px;
+footer nav ul{
+    list-style: none;
+    display: flex;
+}
+footer nav ul li{
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 20px;
+}
+footer{
+padding: 10px;
+    background-color: #6ab168;
 }
