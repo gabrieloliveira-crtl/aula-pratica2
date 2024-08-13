@@ -68,44 +68,49 @@ body{
     background-attachment: fixed;/* feito para deixar a imagem estatica */
 
 }
-
+/* chamamos a class da section para a estilizaçao */
 .sect{
-    padding: 250px;
-    display: flex;
-    justify-content: space-evenly;
+    padding: 250px;/* demos um tamanho a ela */
+    display: flex;/* tornamos o display dela flex para ficar uma ao lado da outra */
+    justify-content: space-evenly;/* justificamos o conteudo da sessao */
 }
+/* chamamos a tag de imagem para  estilizaçao */
 .sect img{
-    width: 300px;
-    height: auto;
+    width: 300px;/* definimos a largura da imagem */
+    height: auto;/* colocamos a altura da pagina em automatico para o proprio site decidir a altura dela */
 }
+/* chamamos o subtitulo para estilização */
 .sect h2{
-    color: aliceblue;
-    font-size: 25px;
+    color: aliceblue;/* definimos uma cor para as letras */
+    font-size: 25px;/* alteramos o tamanho da fonte da letra */
 }
+/* chamamos o paragrafo para a estilizaçao */
 .sect p {
-    color: aliceblue;
-    font-size: 18px;
-    margin-right: 15px;
+    color: aliceblue;/* definimos uma cor */
+    font-size: 18px;/* definimos um tamanho para a letra */
+    margin-right: 15px;/* alteramos o espaçamento entre a letra e a imagem */
 }
+/* chamamos o paragrafo do sessao de imagem do coala para estilizaçao */
 .koala p{
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 16px;/* definimos um tamanho para a letra */
+    font-weight: 900;/* alteramos a espessura da letra */
 }
+/* chamamos o roda-pé para estilizaçao */
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;/* tornamos o roda-pé flex */
+    justify-content: center;/* justificamos o conteudo do roda-pé para o centro (horizontal) */
+    align-items: center;/* centralizamos os itens (vertical) */
+    padding: 10px;/* deifinimos um tamanho para o roda-pé */
+    background-color: #6ab168;/* definimos uma cor de fundo do roda-pé */
 }
+/* chamamos a lista nao ordenada do roda-pé para estilizaçao */
 footer nav ul{
-    list-style: none;
-    display: flex;
+    list-style: none;/* estilo da lista desativado */
+    display: flex;/* tornamos a lista flex */
 }
+/* chamamos os itens da lista para a estilização */
 footer nav ul li{
-    text-decoration: none;
-    color: antiquewhite;
-    margin-right: 20px;
-}
-footer{
-padding: 10px;
-    background-color: #6ab168;
+    text-decoration: none;/* decoraçao da lista(sublinhado)desativado */
+    color: antiquewhite;/* definimos uma cor para a lista */
+    margin-right: 20px;/* demos um espaçamento para os conteudos das listas */
 }
